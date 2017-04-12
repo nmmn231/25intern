@@ -1,0 +1,173 @@
+body{
+    background-color: #AFCCC6;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#mypic {
+    width: 35%;
+    border: 25px solid #E6F2DA;
+}
+#name{
+	width: 40%;
+	margin-left: -20px;
+}
+
+@media screen and (min-width: 1155px) {
+
+	.works{
+		margin-top: 150px;
+		color: #D4A19F;
+		font-family: sans-serif;
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#works{
+		width: 15%;
+	}
+	.workspic{
+		display: flex;
+		max-width: 1200px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+	.circle{
+		height: 300px;
+		width: 300px;
+		border-radius: 100%;
+		background-color: #E6F2DA;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.circle img{
+		height: 85%;
+	}
+	#c1{
+		position: relative;
+		left: 180px;
+	}
+	#c2{
+		position: relative;
+		top: 80px;
+		left: 160px;
+		height: 200px;
+		width: 200px;
+		opacity: 0.5;
+	}
+	#c3{
+		position: relative;
+		top: 200px;
+		left: 0px;
+		height: 375px;
+		width: 375px;
+	}
+	#c4{
+		position: relative;
+		top: 2px;
+		left: -70px;
+		opacity: 0.4;
+		height: 260px;
+		width: 260px;
+	}
+	#c5{
+		position: relative;
+		top: -180px;
+		left: -120px;
+		height: 220px;
+		width: 220px;
+		opacity: 0.7;
+	}
+	#c6{
+		position: relative;
+		height: 250px;
+		width: 250px;
+		left: -70px;
+	}
+	#c7{
+		position: relative;
+		height: 180px;
+		width: 180px;
+		opacity: 0.3;
+		left: 190px;
+		top: 100px;
+		
+	}
+	#c8{
+		position: relative;
+		height: 200px; 
+		width: 200px;
+		left: 130px;
+		
+	}
+	#ig{
+		height: 250px;
+	}
+	#fp{
+		height: 330px;
+	}
+	#ae{
+		height: 210px;
+	}
+	#dct{
+		height: 160px;
+	}
+
+}
+
+@media screen and (max-width: 1154px) {
+
+	.works{
+		color: #D4A19F;
+		font-family: sans-serif;
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#works{
+		width: 15%;
+		margin-bottom: 30px;
+	}
+	.workspic{
+		display: flex;
+		max-width: 1000px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+	.circle{
+		height: 300px;
+		width: 300px;
+		margin: 20px;
+		border-radius: 100%;
+		background-color: #E6F2DA;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#c2, #c4, #c5, #c7{
+		display: none;
+	}
+	#ig, #fp, #dct, #ae{
+		height: 260px;
+	}
+
+}
