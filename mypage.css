@@ -81,7 +81,6 @@ body{
 		position: relative;
 		top: 2px;
 		left: -70px;
-		opacity: 0.4;
 		height: 260px;
 		width: 260px;
 	}
@@ -127,6 +126,9 @@ body{
 	#dct{
 		height: 160px;
 	}
+	#pr{
+		height: 215px;
+	}
 
 }
 
@@ -163,10 +165,10 @@ body{
 		align-items: center;
 	}
 
-	#c2, #c4, #c5, #c7{
+	#c2, #c5, #c7{
 		display: none;
 	}
-	#ig, #fp, #dct, #ae{
+	#ig, #fp, #dct, #ae, #pr{
 		height: 260px;
 	}
 
